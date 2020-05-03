@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="50" height="30" tilewidth="64" tileheight="64" nextobjectid="787">
+ <tileset firstgid="1" name="st2" tilewidth="64" tileheight="64" spacing="10" tilecount="540" columns="27">
+  <image source="../img/spritesheet_tiles.png" width="1988" height="1470"/>
+ </tileset>
+ <tileset firstgid="541" name="st3" tilewidth="64" tileheight="64" spacing="10" tilecount="65" columns="13">
+  <image source="../img/tiles_sheet.png" width="1024" height="384"/>
+ </tileset>
+ <tileset firstgid="606" name="st5" tilewidth="64" tileheight="64" spacing="5" tilecount="91" columns="13">
+  <image source="../img/Preview.png" width="918" height="515"/>
+ </tileset>
+ <layer name="ground" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztmNGSgzAIRTH6A8Z+X7rv/v/76kwYbykxxMTq7vSBEW1j4R4g2uCInov9LBb+sD9HP/wD/y6afnnUazF/eZzGoyOi5UD9YgPdp/ZLeXh6z2W9dpW+I+nm41Fb6+E7Q7Qunl+lNcaMPuYheXjg0MccesijpdaTkbElD43HEHNxSh6pekxpusb6iKZdt/LoIB7WeTDycNAbpTxGWLdnJTwkhxwPrCuZh7Wu9/LA+pCcpJ/TJMejg/oq0c7CA/M40h+SyV5/+IY8tDhG4z0fifUyD+THPLg3Otpmbg0PrabP5sGfcfw9vfKwPkelGJTy0PYPWbNaf3BPcD05ep27s8vzmDLx1/LQ+lyuHWibVSPUF/9m6Z681vcUrcV+7kUuuBcgD9nbXuRh7Q/0OZ4poV0JD+2orUX92fb2c80P4OP9g2FtCQ+uM40H7xuYi4tm0Q7n36zcvxUPWVvavBppm70u5oUxWnTUZnrNs6/si9y8Wm2K8R/RTrLBXCSns3z5PNryHeLIrKt5H0z5n9CxlS9r4A7v20d4aBzuoG8Nj3ATfWv+L0E2R2fUVTx+AeB/1yw=
+  </data>
+ </layer>
+ <layer name="sandANDship" width="50" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztV9GNwyAMRdnDHYAslclOKF2E0UouoFo+bGxKjx+eZFUtxDzbzw51bmFhQYtzc+65zWbxGSDxfyBL38MsLr35vGLYifnNxeEEDXweTF5ByLNHvNP64bPNqot/5/JI58fyWfjtN69InwO0j/qbURdonOuNmoO7JuEzVm9odZ81EaX1mk6A0U8rL7X9VNfp+UBNo9VWPWr55fRj0RUgTeNnaO/tt95FnxpdWeLg+obzDZVZ4YkPjVZburLGUQOncUvvKeJwuzArO+qhnrsj40Bz9w+nsn75SPk86O9Sf/w4F1rmhZhpPi4OLV+aOE5jHDVftb1cL5U+y/0bRtVDy7cjDhW/1uyQ4gD0ntfytbw/6IziTDP/QNjLvQOlOEbcS1IvxtPoAxozw8pX0vw30dJoTxwzgPsYz7pyr+F6pxYHTKpFPrvc1wP6P3TNuViM6/OyF/djj7ZHIt9hfjlr7sp41vwLwYWFhQUjXnygm/Q=
+  </data>
+ </layer>
+ <objectgroup name="Obstacles">
+  <object id="701" name="player" x="304" y="288" width="32" height="32"/>
+  <object id="703" name="zombie" x="592" y="720" width="32" height="32"/>
+  <object id="704" name="zombie" x="144" y="848" width="32" height="32"/>
+  <object id="705" name="zombie" x="144" y="1104" width="32" height="32"/>
+  <object id="706" name="zombie" x="400" y="1040" width="32" height="32"/>
+  <object id="707" name="zombie" x="272" y="912" width="32" height="32"/>
+  <object id="708" name="zombie" x="336" y="1424" width="32" height="32"/>
+  <object id="709" name="zombie" x="560" y="1472" width="32" height="32"/>
+  <object id="710" name="zombie" x="560" y="1296" width="32" height="32"/>
+  <object id="711" name="zombie" x="880" y="864" width="32" height="32"/>
+  <object id="712" name="zombie" x="848" y="976" width="32" height="32"/>
+  <object id="713" name="zombie" x="1104" y="976" width="32" height="32"/>
+  <object id="714" name="zombie" x="1712" y="1008" width="32" height="32"/>
+  <object id="715" name="zombie" x="1520" y="720" width="32" height="32"/>
+  <object id="716" name="zombie" x="1248" y="768" width="32" height="32"/>
+  <object id="717" name="zombie" x="1872" y="720" width="32" height="32"/>
+  <object id="718" name="zombie" x="1872" y="1120" width="32" height="32"/>
+  <object id="719" name="zombie" x="1648" y="1232" width="32" height="32"/>
+  <object id="720" name="zombie" x="2128" y="976" width="32" height="32"/>
+  <object id="721" name="zombie" x="2512" y="976" width="32" height="32"/>
+  <object id="722" name="zombie" x="2704" y="1232" width="32" height="32"/>
+  <object id="723" name="zombie" x="2832" y="976" width="32" height="32"/>
+  <object id="724" name="zombie" x="2512" y="1296" width="32" height="32"/>
+  <object id="725" name="zombie" x="2704" y="784" width="32" height="32"/>
+  <object id="726" name="zombie" x="2448" y="720" width="32" height="32"/>
+  <object id="727" name="zombie" x="3088" y="944" width="32" height="32"/>
+  <object id="728" name="zombie" x="2576" y="544" width="32" height="32"/>
+  <object id="729" name="zombie" x="2752" y="528" width="32" height="32"/>
+  <object id="730" name="zombie" x="2896" y="592" width="32" height="32"/>
+  <object id="731" name="zombie" x="2960" y="416" width="32" height="32"/>
+  <object id="732" name="zombie" x="2960" y="848" width="32" height="32"/>
+  <object id="733" name="zombie" x="2784" y="1504" width="32" height="32"/>
+  <object id="734" name="zombie" x="2960" y="1376" width="32" height="32"/>
+  <object id="735" name="zombie" x="192" y="1488" width="32" height="32"/>
+  <object id="736" name="zombie" x="176" y="1232" width="32" height="32"/>
+  <object id="737" name="zombie" x="464" y="912" width="32" height="32"/>
+  <object id="738" name="zombie" x="656" y="976" width="32" height="32"/>
+  <object id="739" name="zombie" x="560" y="496" width="32" height="32"/>
+  <object id="740" name="zombie" x="2448" y="400" width="32" height="32"/>
+  <object id="741" name="zombie" x="2960" y="1088" width="32" height="32"/>
+  <object id="742" name="zombie" x="1248" y="1168" width="32" height="32"/>
+  <object id="743" name="wall" x="640" y="1024" width="576" height="896"/>
+  <object id="744" name="wall" x="576" y="1344" width="64" height="128"/>
+  <object id="745" name="wall" x="320" y="1552" width="320" height="368"/>
+  <object id="746" name="wall" x="1232" y="1232" width="352" height="672"/>
+  <object id="747" name="wall" x="2000" y="1024" width="416" height="880"/>
+  <object id="748" name="wall" x="1712" y="1232" width="272" height="672"/>
+  <object id="749" name="wall" x="1600" y="1264" width="112" height="640"/>
+  <object id="750" name="wall" x="2432" y="1552" width="752" height="368"/>
+  <object id="751" name="wall" x="0" y="0" width="3200" height="272"/>
+  <object id="752" name="wall" x="640" y="304" width="560" height="560"/>
+  <object id="753" name="wall" x="1232" y="288" width="1184" height="304"/>
+  <object id="754" name="wall" x="2000" y="640" width="416" height="304"/>
+  <object id="755" name="wall" x="2560" y="288" width="640" height="96"/>
+  <object id="756" name="wall" x="3072" y="384" width="128" height="512"/>
+  <object id="757" name="wall" x="3136" y="896" width="64" height="640"/>
+  <object id="758" name="wall" x="2880" y="1472" width="256" height="80"/>
+  <object id="759" name="wall" x="640" y="864" width="208" height="96"/>
+  <object id="760" name="wall" x="960" y="864" width="240" height="96"/>
+  <object id="761" name="wall" x="848" y="896" width="32" height="64"/>
+  <object id="762" name="wall" x="896" y="896" width="48" height="64"/>
+  <object id="763" name="wall" x="0" y="272" width="128" height="1648"/>
+  <object id="764" name="wall" x="128" y="1600" width="192" height="336"/>
+  <object id="765" name="wall" x="2432" y="1472" width="128" height="80"/>
+  <object id="766" name="wall" x="3088" y="1024" width="48" height="448"/>
+  <object id="767" name="wall" x="3008" y="1152" width="80" height="64"/>
+  <object id="768" name="wall" x="3008" y="512" width="64" height="64"/>
+  <object id="769" name="wall" x="2816" y="400" width="64" height="48"/>
+  <object id="770" name="wall" x="512" y="272" width="128" height="176"/>
+  <object id="771" name="wall" x="384" y="272" width="128" height="48"/>
+  <object id="777" name="wall" x="128" y="272" width="144" height="48"/>
+  <object id="778" name="wall" x="128" y="320" width="64" height="64"/>
+  <object id="779" name="wall" x="2416" y="288" width="144" height="48"/>
+  <object id="780" name="health" x="2480" y="352" width="32" height="32"/>
+  <object id="781" name="shotgun" x="1824" y="608" width="32" height="32"/>
+  <object id="782" name="wall" x="1200" y="592" width="592" height="32"/>
+  <object id="783" name="wall" x="1200" y="624" width="80" height="80"/>
+  <object id="784" name="wall" x="1920" y="592" width="512" height="48"/>
+  <object id="785" name="wall" x="2416" y="640" width="80" height="64"/>
+  <object id="786" name="rocket" x="1865" y="1166" width="32" height="32"/>
+ </objectgroup>
+</map>
